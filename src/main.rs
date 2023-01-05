@@ -128,7 +128,7 @@ impl Matrix {
 
     fn game(&mut self)
     {
-        //self.randomize_matrix();
+        self.randomize_matrix();
         loop {
             self.check_aviables();
             self.print_out();
